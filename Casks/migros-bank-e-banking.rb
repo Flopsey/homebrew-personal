@@ -9,5 +9,6 @@ cask "migros-bank-e-banking" do
   homepage "https://www.migrosbank.ch/de/privatpersonen/e-banking.html"
 
   pkg "MigrosBank-EBanking-Mac-#{version}.pkg"
+
   uninstall pkgutil: "com.kobil.midappqt.PROD"
 end
