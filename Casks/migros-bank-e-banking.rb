@@ -6,6 +6,7 @@ cask "migros-bank-e-banking" do
   name "Migros Bank E-Banking"
   name "Banque Migros E-banking"
   name "Banca Migros E-banking"
+  desc "E-banking app"
   homepage "https://www.migrosbank.ch/de/privatpersonen/e-banking.html"
 
   pkg "MigrosBank-EBanking-Mac-#{version}.pkg"
