@@ -1,6 +1,6 @@
 cask "migros-bank-e-banking" do
-  version "8.1.2500"
-  sha256 "fea31fa340912cd5cab6332fd1b09c3ad366eade655590e7be3c0b42cfce04ad"
+  version "8.1.2609"
+  sha256 "78d65742efaaa4d35156d2fb86309eb872ce62091015eac4b1211a7e1686ccda"
 
   url "https://download.migrosbank.ch/mid/MigrosBank-EBanking-Mac-#{version}.pkg"
   name "Migros Bank E-Banking"
