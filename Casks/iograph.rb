@@ -1,10 +1,11 @@
 cask "iograph" do
-  version "1.0.1"
-  sha256 "9da847f06c59b51bb484e3c38a8c5725d37c92099aea3eda79d099a52bcd68e2"
+  version "1.0.3"
+  sha256 "9f2755eda8d29113d14832771bb2bd59672e4a0cc5fe81e25a9d73f47f2015d4"
 
-  url "http://iographica.com/download/osx/IOGraph_v#{version.dots_to_underscores}.dmg"
+  url "https://github.com/anatolyzenkov/IOGraph/releases/download/v#{version}/IOGraph_v#{version.dots_to_underscores}.dmg", verified: "https://github.com/anatolyzenkov/IOGraph/"
   name "IOGraph"
-  homepage "http://iographica.com/"
+  desc "Mouse movement visualizations"
+  homepage "https://iographica.com/"
 
   app "IOGraph.app"
 end
