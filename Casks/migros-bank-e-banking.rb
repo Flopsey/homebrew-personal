@@ -15,6 +15,8 @@ cask "migros-bank-e-banking" do
     regex(%r{href=.*?/MigrosBank-EBanking-Mac-(\d+(?:\.\d+)*)\.pkg}i)
   end
 
+  auto_updates true
+
   pkg "MigrosBank-EBanking-Mac-#{version}.pkg"
 
   uninstall pkgutil: "com.kobil.midappqt.PROD"
