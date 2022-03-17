@@ -10,7 +10,7 @@ cask "migros-bank-e-banking" do
   homepage "https://www.migrosbank.ch/de/privatpersonen/e-banking.html"
 
   livecheck do
-    url "https://www.migrosbank.ch/de/e-banking-update.html"
+    url "https://www.migrosbank.ch/ueber-uns/kontakt-support/e-banking-support.html"
     strategy :page_match
     regex(%r{href=.*?/MigrosBank-EBanking-Mac-(\d+(?:\.\d+)*)\.pkg}i)
   end
